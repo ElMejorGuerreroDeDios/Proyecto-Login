@@ -1,0 +1,64 @@
+#contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #b32424;
+
+  background-image: url("/imagenes/spiderweb.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: 'MiFuente';
+  src: url('/fonts/Mightyspidey-pmaa.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 30%;
+  background-color: rgba(37, 37, 37, 0.45);
+  border-radius: 20px;
+}
+#title-login{
+  font-size: 24px;
+  color: white;
+  font-family: 'MiFuente', sans-serif;
+  margin: 3%;
+}
+
+input{
+  width: 75%;
+  height: 10%;
+  margin: 3%;
+  padding-left: 4%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button{
+  width: 80%;
+  height: 10%;
+  margin: 2%;
+  background-color: #541c1c;
+  color: white;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+#msg_login{
+  color: red;
+  font-size: 18px;
+  margin-top: 3%;
+}
