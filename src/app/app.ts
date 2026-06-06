@@ -44,7 +44,7 @@ export class App {
       this.mensaje = res.message;
 
       if (res.success) {
-        alert('✅ Login correcto');
+        alert(' Bienvenido, ' + this.usuario + '!');
       } else {
         alert('❌ ' + res.message);
       }
